@@ -191,7 +191,7 @@ public:
 		}
 	}
 
-	// Returns set of ids of nodes in which longest matching patterns end
+	// Returns set of ids of nodes in which longest matching pattern ends
 	std::vector<uint> searchIn(const std::string& text) {
 		std::vector<uint> res(text.size());
 		uint curr = 0, x;
